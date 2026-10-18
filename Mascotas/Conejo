@@ -1,0 +1,19 @@
+package com.mycompany.practica7;
+
+class Conejo extends Mascotas{
+  
+    public Conejo(String nombre,int edad,int peso,String sexo, String colorPelaje){
+        super(nombre, edad, peso, sexo, colorPelaje);
+    }
+    public String saltar(){
+        return nombre + " esta dando saltos";
+    }
+    @Override
+    public String Sonido(){
+        return "*golpea el suelo con las patas traseras*";
+    }
+    @Override
+    public String toString(){
+        return ":Conejo:" + super.toString()+ "\nSonido:" + Sonido() + "\nAccion:" + saltar() + "\n";
+    }
+}
