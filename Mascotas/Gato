@@ -1,0 +1,19 @@
+package com.mycompany.practica7;
+
+class Gato extends Mascotas{
+    
+    public Gato(String nombre,int edad,int peso,String sexo,String colorPelaje){
+        super(nombre, edad, peso, sexo, colorPelaje);
+    }
+    @Override
+    public String Sonido(){
+        return "Miau";
+    }
+    public String ronronear(){
+        return" rrr rrr rrr";
+    }
+    @Override
+    public String toString(){
+        return "Gato:" + super.toString()+ "\nSonido:" + Sonido() + "\nAccion:" + ronronear() + "\n";
+    }
+}
