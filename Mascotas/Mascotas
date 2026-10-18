@@ -21,6 +21,6 @@ public class Mascotas{
     
     @Override
     public String toString(){
-    return "\nNombre:" + nombre + "\nEdad:" + edad + "\nPeso:" + peso + "\nSexo:" + sexo +"\nColor del pelaje:" + colorPelaje;
+    return "\nNombre:" + nombre + "\nEdad:" + edad + "\nPeso:" + peso + "kg" + "\nSexo:" + sexo +"\nColor del pelaje:" + colorPelaje;
     }
 }
