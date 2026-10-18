@@ -1,0 +1,19 @@
+package com.mycompany.practica7;
+
+class Perro extends Mascotas{
+    private String raza;
+    
+    public Perro(String nombre,int edad,int peso,String sexo,String colorPelaje,String raza){
+        super(nombre, edad, peso, sexo, colorPelaje);
+        this.raza = raza;
+    }
+    @Override
+    public String Sonido(){
+        return "Guau";
+    }
+    
+    @Override
+    public String toString(){
+        return "PERRO:\n" + super.toString() + "\nRaza:" + raza;
+    }
+}
