@@ -1,0 +1,18 @@
+package com.mycompany.practica7;
+
+public class Main {
+    public static void main(String[] args){
+        
+        Mascotas m1 = new Perro("Akamaru", 6, 34, "Macho", "Negro con cafe", "Doberman");
+        Mascotas m2 = new Gato("Meg", 5, 5, "Hembra", "Negro con Gris");
+        Mascotas m3 = new Conejo("Pelusa", 1, 3, "Hembra", "Blanco");
+
+        Mascotas[] listaMascotas = {m1, m2, m3};
+
+        System.out.println("MASCOTAS");
+        
+        for(Mascotas m : listaMascotas){
+            System.out.println(m); 
+        }
+    }
+}
